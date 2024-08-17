@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link href="calculator.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div class="calculator">
+   <input type="text" id="result"  disabled/>
+   <button class="red" onclick="clearResult()" >Ac</button>
+   <button class="red" onclick="clearResult()" >C</button>
+   <button class="orange" onclick="getresult('%')">%</button>
+   <button class="orange" onclick="getresult('/')">/</button>
+   <button class="orange" onclick="getresult('7')">7</button>
+   <button class="orange" onclick="getresult('8')">8</button>
+   <button class="orange" onclick="getresult('9')">9</button>
+   <button class="orange" onclick="getresult('*')">*</button>
+   <button class="orange" onclick="getresult('4')" >4</button>
+   <button class="orange" onclick="getresult('5')" >5</button>
+   <button class="orange" onclick="getresult('6')">6</button>
+   <button class="orange" onclick="getresult('-')">-</button>
+   <button class="orange" onclick="getresult('1')">1</button>
+   <button class="orange" onclick="getresult('2')">2</button>
+   <button class="orange" onclick="getresult('3')">3</button>
+   <button class="orange" onclick="getresult('+')">+</button>
+   <button class="orange" onclick="getresult('00')">00</button>
+   <button class="orange" onclick="getresult('0')">0</button>
+   <button class="orange" onclick="getresult('.')">.</button>
+   <button class="orange" onclick="getresult('=')">=</button>
+
+   </div>
+   <script src="calculator.js"></script>
+
+</body>
+</html>
